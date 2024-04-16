@@ -1,3 +1,4 @@
 module.exports = {
-  server: 'http://13.234.23.18:4000',
+  server: 'http://192.168.1.110:4000',
 }
+

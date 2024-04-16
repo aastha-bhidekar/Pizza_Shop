@@ -43,6 +43,7 @@ app.use('/user', userRouter)
 app.use('/pizza', pizzaRouter)
 app.use('/order', orderRouter)
 
-app.listen(4000, '0.0.0.0', () => {
-  console.log('server started on port 4000')
+app.listen(4000, '192.168.1.110', () => {
+  console.log('server started on port 4000') 
 })
+
